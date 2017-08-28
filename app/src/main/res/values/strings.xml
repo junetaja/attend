@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTI Attendance</string>
+    <string name="prefix_checkin">Check IN : %s</string>
+    <string name="prefix_checkout">Check OUT : %s</string>
+    <string name="prefix_locationout">Location OUT : %s</string>
+    <string name="prefix_locationin">Location IN : %s</string>
+    <string name="prefix_duration">%s Menit</string>
+</resources>

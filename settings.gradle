@@ -1,0 +1,6 @@
+include ':app'
+
+
+// Core Framework
+include ':core-framework'
+project(':core-framework').projectDir = new File('../LIBRARY/zambelz-core-framework/library/')

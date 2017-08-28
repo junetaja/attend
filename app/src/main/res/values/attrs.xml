@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseTheme">
+        <attr name="actionBarIconColor" format="color" />
+        <attr name="actionBarInsetStart" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawShadowFrameLayout">
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+
+    <!-- used to set the minTextSize via xml -->
+    <attr name="autoScaleTextViewStyle" format="reference" />
+    <declare-styleable name="AutoScaleTextView">
+        <attr name="minimumTextSize" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="WeekCalendar">
+        <attr name="numOfPages" format="integer"/>
+        <attr name="daysTextSize" format="dimension"/>
+        <attr name="daysTextColor" format="color"/>
+        <attr name="daysBackgroundColor" format="color"/>
+        <attr name="weekTextSize" format="dimension"/>
+        <attr name="weekTextColor" format="color"/>
+        <attr name="weekBackgroundColor" format="color"/>
+        <attr name="selectedDateBgColor" format="color"/>
+        <attr name="todayDateBgColor" format="color"/>
+        <attr name="todayDateColor" format="color"/>
+        <attr name="dayNameLength">
+            <enum name="singleLetter" value="0"/>
+            <enum name="threeLetters" value="1"/>
+        </attr>
+        <attr name="hideNames"  format="boolean"/>
+    </declare-styleable>
+
+</resources>
